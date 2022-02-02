@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+
 import i18n from "../../i18n";
+import { Sidebar } from "../sidebar/sidebar";
 import "./navigator.css";
 
 export const Navigation = () => {
