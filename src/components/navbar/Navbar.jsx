@@ -5,7 +5,7 @@ export const Navbar = () => {
   const { t } = useTranslation();
   return (
     <header className="navbar">
-      <p>{t("home.textHeader")}</p>
+      <p className="navbar-title">{t("home.textHeader")}</p>
       <Navigation />
     </header>
   );

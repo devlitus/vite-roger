@@ -13,19 +13,29 @@ export const Navigation = () => {
     <nav className="navigator">
       <ul className="navigator-items">
         <li className="navigator-item">
-          <Link to="/">{t("home.pathUrl")}</Link>
+          <Link className="navigator-link" to="/">
+            {t("home.pathUrl")}
+          </Link>
         </li>
         <li className="navigator-item">
-          <Link to="/about">{t("about.pathUrl")}</Link>
+          <Link className="navigator-link" to="/about">
+            {t("about.pathUrl")}
+          </Link>
         </li>
         <li className="navigator-item">
-          <Link to="/">Campus</Link>
+          <Link className="navigator-link" to="/">
+            Campus
+          </Link>
         </li>
         <li className="navigator-item">
-          <Link to="/">Blog</Link>
+          <Link className="navigator-link" to="/">
+            Blog
+          </Link>
         </li>
         <li className="navigator-item">
-          <Link to="/contact">{t("contact.pathUrl")}</Link>
+          <Link className="navigator-link" to="/contact">
+            {t("contact.pathUrl")}
+          </Link>
         </li>
         <li>
           <button className="navigator-btn" onClick={handleClick}>
