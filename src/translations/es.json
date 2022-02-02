@@ -1,0 +1,17 @@
+{
+  "home": {
+    "pathUrl": "Inicio",
+    "textHeader": "Pedagogia en movimiento",
+    "titlePattner": "Tu mejor garantia, nuestros clientes",
+    "titleContat": "Contacta con nosotros",
+    "cite": "Todos los adultos fueron alguna vez niños… pero sólo unos pocos lo recuerdan.",
+    "auhtorCite": "El Pequeño príncipe",
+    "contact": "Estamos en el centro de Barcelona, en la calle Gran Via de las Cortes Catalanes 672, entre Passeig de Gràcia i Passeig de Sabt Joan"
+  },
+  "about": {
+    "pathUrl": "Sobre mi"
+  },
+  "contact": {
+    "pathUrl": "Contacto"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "home": {
+    "pathUrl": "Inici",
+    "textHeader": "Pedagogia en moviment",
+    "titlePattner": "La teva millor garantia, els nostres clients",
+    "titleContat": "Contacte amb nosaltres",
+    "cite": "Tots els adults van ser alguna vegada nens… però només uns pocs ho recorden.",
+    "auhtorCite": "El Petit princep",
+    "contactP": "Estem al centre de Barcelona,",
+    "contactP2": "al carrer Gran Via de de les Corts Catalanes 672,",
+    "contactP3": "entre Passeig de Gràcia i Passeig de Sant Joan."
+  },
+  "about": {
+    "pathUrl": "Sobre jo"
+  },
+  "contact": {
+    "pathUrl": "Contacte"
+  }
+}
