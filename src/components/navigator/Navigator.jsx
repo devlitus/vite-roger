@@ -1,15 +1,25 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import i18n from "../../i18n";
-import { Sidebar } from "../sidebar/sidebar";
 import "./navigator.css";
 
 export const Navigation = () => {
+  const { isHidden, setHidden } = useState(false);
+  const { isvisibility, setvisibility } = useState(false);
   const { language, changeLanguage } = i18n;
   const { t } = useTranslation();
-  const handleClick = () => {
+  const handleChangeLanguage = () => {
     changeLanguage(language === "ca" ? "es" : "ca");
+  };
+  const handleHidden = () => {
+    // setvisibility(true);
+    // setHidden(!isHidden);
+    document
+      .querySelector(".navigator-select")
+      .classList.toggle(".navigator-select-hidden");
   };
   return (
     <nav className="navigator">
@@ -40,11 +50,23 @@ export const Navigation = () => {
           </Link>
         </li>
         <li>
-          <button className="navigator-btn" onClick={handleClick}>
-            {language}
-          </button>
+          <FontAwesomeIcon
+            icon={faGlobe}
+            className="navigator-globe "
+            onClick={handleHidden}
+          />
+          <div
+            className={`navigator-select navigator-select-hidden animate__animated ${
+              isHidden ? animate__fadeInDown : null
+            }`}
+          >
+            <button className="navigator-btn" onClick={handleChangeLanguage}>
+              {language}
+            </button>
+          </div>
         </li>
       </ul>
     </nav>
   );
 };
+// navigator-select-hidden animate__animated animate__fadeInDown
