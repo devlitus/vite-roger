@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 170px;
+  background-color: rgba(0, 95, 148, 0.8);
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 2;
+}
+
+.sidebar-items {
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sidebar-link {
+  color: #fff;
+  text-decoration: none;
+}
+.close-icon {
+  position: absolute;
+  right: 1rem;
+}
+.sidebar-btn {
+  color: #fff;
+  border: none;
+  background: transparent;
+}

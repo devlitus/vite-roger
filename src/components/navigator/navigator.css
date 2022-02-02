@@ -1,0 +1,25 @@
+.navigator {
+  margin: 0 1rem;
+}
+.navigator-items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.navigator-item {
+  color: #fff;
+  border-right: #fff solid 1px;
+  padding: 0 1rem;
+}
+.navigator-link {
+  color: #fff;
+  text-decoration: none;
+}
+.navigator-btn {
+  /* margin-left: 0.5rem; */
+  color: #fff;
+  border: none;
+  background: transparent;
+}
