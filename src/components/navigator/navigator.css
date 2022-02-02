@@ -1,0 +1,16 @@
+.navigator {
+}
+.navigator-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.navigator-item {
+}
+.navigator-btn {
+  border: none;
+  background: transparent;
+}
