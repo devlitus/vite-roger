@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  height: 5vw;
+  margin-top: 2rem;
+  background-color: var(--primaryColor);
+}
+.footer-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0 2rem;
+}
+
+.image-social {
+  width: 5%;
+  object-fit: cover;
+}
+.text-service {
+  color: #fff;
+  font-size: 1.5rem;
+}
