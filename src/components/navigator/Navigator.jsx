@@ -1,25 +1,24 @@
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "animate.css";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import i18n from "../../i18n";
 import "./navigator.css";
 
 export const Navigation = () => {
-  const { isHidden, setHidden } = useState(false);
+  const [isHidden, setHidden] = useState(false);
   const { isvisibility, setvisibility } = useState(false);
   const { language, changeLanguage } = i18n;
   const { t } = useTranslation();
   const handleChangeLanguage = () => {
     changeLanguage(language === "ca" ? "es" : "ca");
+    setHidden(false);
   };
   const handleHidden = () => {
     // setvisibility(true);
-    // setHidden(!isHidden);
-    document
-      .querySelector(".navigator-select")
-      .classList.toggle(".navigator-select-hidden");
+    setHidden(true);
   };
   return (
     <nav className="navigator">
@@ -52,12 +51,12 @@ export const Navigation = () => {
         <li>
           <FontAwesomeIcon
             icon={faGlobe}
-            className="navigator-globe "
+            className="navigator-globe"
             onClick={handleHidden}
           />
           <div
-            className={`navigator-select navigator-select-hidden animate__animated ${
-              isHidden ? animate__fadeInDown : null
+            className={`navigator-select  animate__animated ${
+              isHidden ? `animate__fadeInDown` : `navigator-select-hidden`
             }`}
           >
             <button className="navigator-btn" onClick={handleChangeLanguage}>
