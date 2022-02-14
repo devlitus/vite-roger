@@ -11,8 +11,11 @@
   --fontWeightSemiBold: 600;
   --fontWeightThin: 100;
   --fontWeightUltraLight: 200;
-  --primatyColor: #005f94;
+  --primaryColor: #005f94;
   --secondaryColor: #00a0e9;
+  --tertiaryColor: #afccdd;
+  --quaternaryColor: #89acc0;
+  --quinaryColor: #5091b5;
   --smScreen: 640px;
   --lgScreen: 1024px;
   --xlScreen: 1440px;
