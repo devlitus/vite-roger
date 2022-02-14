@@ -15,21 +15,8 @@
 .navbar-icon {
   display: none;
 }
-.navigator-globe {
-  margin-left: 1rem;
-  position: relative;
-}
-.navigator-select {
-  background-color: var(--primatyColor);
-  /* border: #000 solid 1px; */
-  position: absolute;
-  right: 0.4rem;
-  top: 0.9rem;
-}
-.navigator-select-hidden {
-  display: none;
-}
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 819px) {
   .navbar {
     justify-content: center;
   }
@@ -39,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 557px) {
+@media screen and (max-width: 561px) {
   .navbar {
     justify-content: space-between;
   }
