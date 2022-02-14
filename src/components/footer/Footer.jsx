@@ -6,22 +6,22 @@ export const Footer = () => {
         <img
           className="image-social"
           src="/assets/resources/emailClar.png"
-          alt=""
+          alt="email"
         />
         <img
           className="image-social"
           src="/assets/resources/linkedinClar.png"
-          alt=""
+          alt="linkedin"
         />
         <img
           className="image-social"
           src="/assets/resources/youtubeClar.png"
-          alt=""
+          alt="youtube"
         />
         <img
           className="image-social"
           src="/assets/resources/instagramClar.png"
-          alt=""
+          alt="instagram"
         />
         <p className="text-service">Serveis</p>
       </div>
