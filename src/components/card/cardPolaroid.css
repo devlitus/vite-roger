@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+}
+.card-polaroid {
+  position: absolute;
+}
+.polaroid-image {
+  object-fit: cover;
+  width: 25vw;
+}
+
+.image {
+  position: relative;
+  width: 23vw;
+  object-fit: cover;
+}
+
+.card-title {
+  position: absolute;
+}
+.title {
+  position: relative;
+  font-size: clamp(2.5vw, 1.5vw, var(--fontSize));
+  text-align: center;
+  top: -2vw;
+}
