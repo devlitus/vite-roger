@@ -2,9 +2,9 @@
   "home": {
     "pathUrl": "Inicio",
     "textHeader": "Pedagogia en movimiento",
-    "paragraf1": "El joc és una activitat molt seriosa per als més petits de la casa: de forma lliure, espontània",
-    "paragraf2": "o dinamitzar pels adults, al menjador de casa o al mig del medi natural, etc. Amb el joc ens",
-    "paragraf3": "divertim i aprenem junts, peró quins són els secrets que s'amaguen darrere de cada joc"
+    "cite": "\"Todos los adultos fueron alguna vez niños... pero solo unos pocos lo recuerdan\"",
+    "titleSection": "Servicios",
+    "textSection": "El juego es una actividad muy seria para los más pequeños de la casa: de forma libre, espontánea o dinamizado los adultos, en el comedor de casa o en medio del medio natural, etc. Con el juego nos divertimos y aprendemos juntos, pero cuáles son los secretos que se esconden detrás de cada juego y juguete."
   },
   "about": {
     "pathUrl": "Sobre mi"
