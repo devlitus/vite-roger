@@ -1,0 +1,273 @@
+.logo {
+  margin: 1rem;
+  max-width: 15vw;
+  object-fit: contain;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-avatar {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.image-avatar {
+  max-width: 25vw;
+  object-fit: cover;
+  border-radius: 50%;
+  border: #000 solid 1px;
+}
+.image-arrow-circle {
+  position: absolute;
+  width: 30vw;
+  object-fit: contain;
+}
+.about-cite {
+  width: 34ch;
+  font-size: clamp(var(--fontSize), 2.5vw, 2vw);
+  font-family: var(--fontFamilyVariant);
+  font-weight: var(--fontWeight);
+  line-height: 1.5;
+  text-align: center;
+}
+.curriculum {
+  margin-right: 5vw;
+  display: grid;
+  grid-template-columns: min-content max-content 20%;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-areas:
+    "text arrow ."
+    "text1 arrow ."
+    "text2 arrow bonbilla";
+  justify-content: end;
+  gap: 0 1rem;
+}
+.curriculum-text {
+  grid-area: text;
+  width: 35ch;
+  font-size: var(--fontSize);
+  line-height: 1.8;
+  margin-left: 5vw;
+  color: var(--color);
+}
+.text1 {
+  grid-area: text1;
+  width: 35ch;
+}
+.text2 {
+  grid-area: text2;
+  width: 35ch;
+}
+.image-arrowDown {
+  grid-area: arrow;
+  justify-self: center;
+}
+.image-arrowDown img {
+  margin-top: 2.5rem;
+  max-width: 13vw;
+  object-fit: cover;
+}
+.image-bonbilla {
+  grid-area: bonbilla;
+  justify-self: end;
+  align-self: end;
+}
+.image-bonbilla img {
+  max-width: 13vw;
+  grid-area: bonbilla;
+  object-fit: cover;
+}
+.about-iamge-point {
+  width: 100%;
+  object-fit: cover;
+}
+.about-text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: var(--fontSize);
+  line-height: 1.8;
+  color: var(--quinaryColor);
+  font-weight: var(--fontWeightBold);
+}
+.cite-rocket {
+  margin-top: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 2.5vw;
+}
+.image-rocket {
+  max-width: 10vw;
+  object-fit: cover;
+  align-self: flex-start;
+}
+.about-thought {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.about-thought h1 {
+  width: 18ch;
+  font-weight: var(--fontWeightLight);
+  font-size: clamp(7vw, 7vw, 7vw);
+  line-height: 1.2;
+  color: var(--primaryColor);
+  /* text-align: center; */
+}
+.about-thought > p {
+  width: 48ch;
+  font-weight: var(--fontWeightLight);
+  color: var(--color);
+  line-height: var(--lineHeight);
+  margin-bottom: 3rem;
+}
+.about-list {
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.list-title,
+.about-list-item::marker {
+  color: var(--primaryColor);
+  font-size: clamp(calc(var(--fontSize) + 0.5rem), 3vw, 3vw);
+}
+.list-item-content {
+  width: 45ch;
+  color: var(--color);
+  font-size: clamp(var(--fontSize), 1vw, 2vw);
+  line-height: var(--lineHeight);
+}
+.about-prini {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.about-prini-arrowUp {
+  align-self: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0 2.5vw;
+}
+.principi-title {
+  color: var(--quinaryColor);
+  font-size: clamp(calc(var(--fontSize) + 0.5rem), 3vw, 3vw);
+  font-weight: var(--fontWeightSemiBold);
+}
+.image-arrowUp {
+  max-width: 13vw;
+  transform: rotate(180deg);
+  margin-top: 4rem;
+  object-fit: cover;
+}
+.text-valor {
+  justify-self: center;
+
+  font-weight: var(--fontWeightSemiBold);
+}
+
+@media screen and (max-width: 725px) {
+  .curriculum {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .curriculum-text {
+    font-size: var(--fontSize);
+    line-height: 1.8;
+    margin-left: 0;
+    color: var(--color);
+  }
+  .image-arrowDown img {
+    display: none;
+  }
+  .image-bonbilla img {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .image-avatar {
+    max-width: 30vw;
+  }
+  .image-arrow-circle {
+    width: 35vw;
+  }
+  .about-cite {
+    font-size: 16px;
+  }
+  .curriculum {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .curriculum-text {
+    width: 25ch;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-left: 0;
+    /* color: var(--color); */
+  }
+  .image-arrowDown img {
+    display: none;
+  }
+  .image-bonbilla img {
+    display: none;
+  }
+  .about-iamge-point {
+    width: 100%;
+    object-fit: cover;
+  }
+  .about-text {
+    width: 90%;
+    font-size: 16px;
+    font-weight: var(--fontWeightSemiBold);
+  }
+  .about-thought h1 {
+    font-weight: var(--fontWeightLight);
+    color: var(--primaryColor);
+    line-height: 1.2;
+    /* font-size: calc(var(--fontSize) * 2); */
+    /* text-align: center; */
+  }
+  .about-thought > p {
+    width: 27ch;
+  }
+  .about-list {
+    width: 100%;
+  }
+
+  .list-item-content {
+    width: 27ch;
+    font-size: 16px;
+  }
+  .about-prini {
+    width: 82%;
+  }
+  .principi-title {
+    font-size: var(--fontSize);
+    font-weight: var(--fontWeightMedium);
+  }
+  .image-arrowUp {
+    margin-top: 2rem;
+  }
+}
