@@ -11,9 +11,11 @@
   --fontWeightSemiBold: 600;
   --fontWeightThin: 100;
   --fontWeightUltraLight: 200;
+  --lineHeight: 1.7;
+  --color: #3b3b3b;
   --primaryColor: #005f94;
   --secondaryColor: #00a0e9;
-  --tertiaryColor: #afccdd;
+  --tertiaryColor: #009abb;
   --quaternaryColor: #89acc0;
   --quinaryColor: #5091b5;
   --smScreen: 640px;
