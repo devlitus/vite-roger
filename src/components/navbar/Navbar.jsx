@@ -11,7 +11,6 @@ export const Navbar = () => {
   const [isVisibility, setIsVisibility] = useState(false);
   const { t } = useTranslation();
   const handlerClickOpen = () => {
-    console.log("click");
     setIsVisibility(true);
     setIsSidebarOpen(!isSidebarOpen);
   };

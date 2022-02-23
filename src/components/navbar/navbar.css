@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 561px) {
+@media screen and (max-width: 566px) {
   .navbar {
     justify-content: space-between;
   }
