@@ -2,12 +2,24 @@
   "home": {
     "pathUrl": "Inicio",
     "textHeader": "Pedagogia en movimiento",
-    "cite": "\"Todos los adultos fueron alguna vez niños... pero solo unos pocos lo recuerdan\"",
+    "cite": "“La educació no canvia el món; canvia a les persones que van a canviar el món”",
     "titleSection": "Servicios",
     "textSection": "El juego es una actividad muy seria para los más pequeños de la casa: de forma libre, espontánea o dinamizado los adultos, en el comedor de casa o en medio del medio natural, etc. Con el juego nos divertimos y aprendemos juntos, pero cuáles son los secretos que se esconden detrás de cada juego y juguete."
   },
   "about": {
-    "pathUrl": "Sobre mi"
+    "pathUrl": "Sobre mi",
+    "cite": "“La educació no canvia el món; canvia a les persones que van a canviar el món”",
+    "citeAuthor": "Pablo Freire.",
+    "curriculum": {
+      "parraf1": "Doctor en Educació i Societat per a la Universitat de Barcelona, Diplomat en Educació Social (URL), Llicenciat en Pedagogia, Màster en Intervencions Socials i Educatives (UB) i Tècnic en Animació sociocultural.",
+      "parraf2": "Una trajectòria professional encaminada cap al món de la infància I adolescència amb més de 25 anys d’experiència, s’inicia en el món de l’associacionisme educatiu, ha estat professor de secundària I de cicles formatius. La seva tasca com educador social vinculada entre l’animació sociocultural i la infància amb protecció, en diversos recursos educatius, com ara CRAE i      CREI entre ells Can Rubió.",
+      "parraf3": "En l’actualitat compagina la seva tasca educativa a l’Àrea de Joves Extutelats de la DGAIA, amb la de professor col·laborador de la UOC. Realitza formacions, xerrades i tallers per a professionals i famílies. Col·laborador de diversos      mitjans de comunicació entre ells els Matins de Radio4 (RNE). Pare de dues criatures I Pedagog les 24 hores al dia, set dies per setmana."
+    },
+    "parrafBLue": "La societat actual, és líquida (Bauman, 2013) està en constant transformació, vivim en un mar d’incertesa amb petits arxipèlag de certesa. Reptes i desafiaments els observem des d’una perspectiva global, com puguin ser la sostenibilitat, la iversitat, el gènere i l’avanç de noves formes d’intolerància. És per això, que la frase de Freire té més validesa que mai.",
+    "title": "La meva manera d’entendre la pedagogia: 6 irrenunciables.",
+    "inalienable": {
+      "parraf": "Ra classe tradicional ha mort, les noves metodologies s’obren pas I conviuen amb la classe magistral. Aprenem de mentre fem I de forma col·laborativa. Aix l’Ensenyament – l’Aprenentatge ha d’implicar, definir el paper del docent, I veure’l com aquell que acompanya als alumnes en el seu propi procés d’aprenentatge, un catalitzador del saber. Que disposa d’un bon coneixement de com s’aprèn i amb unes bones habilitats socials I humanes. Donat més valor a l’esforç que als resultats, posant l’accent amb les   potencialitats el talent dels participants."
+    }
   },
   "contact": {
     "pathUrl": "Contacto"
