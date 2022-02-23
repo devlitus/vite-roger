@@ -2,14 +2,68 @@
   "home": {
     "pathUrl": "Inici",
     "textHeader": "Pedagogia en moviment",
-    "cite": "\"Tots els adults van ser alguna vegada nens... però només uns pocs ho recorden\"",
+    "cite": "“Tots els adults van ser alguna vegada nens... però només uns pocs ho recorden”",
     "titleSection": "Serveis",
     "textSection": "El joc és una activitat molt seriosa per als més petits de la casa: de forma lliure, espontània o dinamitzat els adults, al menjador de casa o al mig del medi natural, etc. Amb el joc ens divertim I aprenem junts, però quins són els secrets que s’amaguen darrere de cada joc i joguina."
   },
   "about": {
-    "pathUrl": "Sobre mi"
+    "pathUrl": "Sobre mi",
+    "cite": "“La educació no canvia el món; canvia a les persones que van a canviar el món”",
+    "citeAuthor": "Pablo Freire.",
+    "curriculum": {
+      "parraf1": "Doctor en Educació i Societat per a la Universitat de Barcelona, Diplomat en Educació Social (URL), Llicenciat en Pedagogia, Màster en Intervencions Socials i Educatives (UB) i Tècnic en Animació sociocultural.",
+      "parraf2": "Una trajectòria professional encaminada cap al món de la infància I adolescència amb més de 25 anys d’experiència, s’inicia en el món de l’associacionisme educatiu, ha estat professor de secundària I de cicles formatius. La seva tasca com educador social vinculada entre l’animació sociocultural i la infància amb protecció, en diversos recursos educatius, com ara CRAE i      CREI entre ells Can Rubió.",
+      "parraf3": "En l’actualitat compagina la seva tasca educativa a l’Àrea de Joves Extutelats de la DGAIA, amb la de professor col·laborador de la UOC. Realitza formacions, xerrades i tallers per a professionals i famílies. Col·laborador de diversos      mitjans de comunicació entre ells els Matins de Radio4 (RNE). Pare de dues criatures I Pedagog les 24 hores al dia, set dies per setmana."
+    },
+    "parrafBLue": "La societat actual, és líquida (Bauman, 2013) està en constant transformació, vivim en un mar d’incertesa amb petits arxipèlag de certesa. Reptes i desafiaments els observem des d’una perspectiva global, com puguin ser la sostenibilitat, la iversitat, el gènere i l’avanç de noves formes d’intolerància. És per això, que la frase de Freire té més validesa que mai.",
+    "title": "La meva manera d’entendre la pedagogia: 6 irrenunciables.",
+    "inalienable": {
+      "parraf": "Donar classe tradicional ha mort, les noves metodologies s’obren pas I conviuen amb la classe magistral. Aprenem de mentre fem I de forma col·laborativa. Aix l’Ensenyament – l’Aprenentatge ha d’implicar, definir el paper del docent, I veure’l com aquell que acompanya als alumnes en el seu propi procés d’aprenentatge, un catalitzador del saber. Que disposa d’un bon coneixement de com s’aprèn i amb unes bones habilitats socials I humanes. Donat més valor a l’esforç que als resultats, posant l’accent amb les   potencialitats el talent dels participants."
+    },
+    "list": {
+      "item1": {
+        "title": "Ecosistemes d’aprenentatge.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      },
+      "item2": {
+        "title": "El clima social.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      },
+      "item3": {
+        "title": "Metodologia.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      },
+      "item4": {
+        "title": "Finalitat de l’educació.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      },
+      "item5": {
+        "title": "La figura del docent.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      },
+      "item6": {
+        "title": "Les tecnologies de la informació.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      }
+    },
+    "principis": {
+      "title": "Els principis de la collita:",
+      "esfros": "Esforç",
+      "generositat": "La generositat",
+      "humilitat": "Humilitat",
+      "perseverança": "Perseverança",
+      "estima": "Estima la feina",
+      "atreviment": "Atreviment",
+      "creativitat": "La creativitat",
+      "passion": "La passión",
+      "curiositat": "Curiositat",
+      "paradoxa": "La paradoxa",
+      "humor": "Humor",
+      "canvi": "El canvi"
+    }
   },
   "contact": {
-    "pathUrl": "Contacte"
+    "pathUrl": "Contacte",
+    "cite": "“Tots els adults van ser alguna vegada nens... però només uns pocs ho recorden.”"
   }
 }

@@ -86,7 +86,7 @@
   line-height: 1.7;
 }
 .home-content-blog {
-  width: calc(100vw / 2);
+  width: calc(100% - 20vw);
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -170,6 +170,16 @@
   object-fit: fill;
   top: -10vw;
   left: 57vw;
+}
+.home-footer {
+  position: relative;
+}
+.home-image-footer {
+  position: absolute;
+  top: -7vw;
+  right: 5vw;
+  width: 20%;
+  object-fit: cover;
 }
 @media screen and (max-width: 600px) {
   .home-content {
