@@ -1,24 +1,25 @@
+import { IconSocial } from "../iconSocial/IconSocial";
 import "./footer.css";
 export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <img
+        <IconSocial
           className="image-social"
           src="/assets/resources/emailClar.png"
           alt="email"
         />
-        <img
+        <IconSocial
           className="image-social"
           src="/assets/resources/linkedinClar.png"
           alt="linkedin"
         />
-        <img
+        <IconSocial
           className="image-social"
           src="/assets/resources/youtubeClar.png"
           alt="youtube"
         />
-        <img
+        <IconSocial
           className="image-social"
           src="/assets/resources/instagramClar.png"
           alt="instagram"
