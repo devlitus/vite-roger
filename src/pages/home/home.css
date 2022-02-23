@@ -176,9 +176,9 @@
 }
 .home-image-footer {
   position: absolute;
-  top: -20vw;
-  right: 0;
-  width: 40%;
+  top: -7vw;
+  right: 5vw;
+  width: 20%;
   object-fit: cover;
 }
 @media screen and (max-width: 600px) {

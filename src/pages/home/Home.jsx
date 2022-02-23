@@ -55,7 +55,7 @@ export const Home = () => {
         <div className="content-blog-video">
           <p className="content-blog-text">VIDEO</p>
         </div>
-        <div className="content-blog-audio">audio</div>
+        <div className="content-blog-audio">AUDIO</div>
         <div className="content-blog-blog">
           <p className="content-blog-text">BLOG</p>
         </div>
