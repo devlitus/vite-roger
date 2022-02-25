@@ -65,5 +65,42 @@
   "contact": {
     "pathUrl": "Contacte",
     "cite": "“Tots els adults van ser alguna vegada nens... però només uns pocs ho recorden.”"
+  },
+  "family": {
+    "pathUrl": "Família",
+    "titleh1": "Xerrades per a Families",
+    "text1": "Les xerrades i els tallers estan dirigits a les famílies, i el Roger fa que siguin molt amenes i divertides, i al mateix temps ens faran reflexionar sobre els temes seleccionats. Estan dissenyats en diversos formats:",
+    "text2": "Xerrada. Duració de 90 minuts. [50 minuts de xerrada + 40 m. Debat i preguntes] Tallers. Duració 120 minuts Amb un mínim de dues sessions. Grups reduïts. Dinàmiques grupals.",
+    "talks": {
+      "1": {
+        "title": "Límits, enrabiades i altres mal de caps",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "object": "Objectius:",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      },
+      "2": {
+        "title": "Límits, adolescents I altres mal de cap",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      }
+    }
+  },
+  "bissnes": {
+    "pathUrl": "Professionals",
+    "titleh1": "Per a professionals de l’àmbit social I educatiu.",
+    "text1": "Els cursos i càpsules de coneixement, estan dirigits a diferents professionals de l’àmbit educatiu. Ja sigui mestres, rofessors, educadors, monitors, etc. Veureu que les formacions amb el Roger són molt amenes i divertides, i al mateix temps ens farà reflexionar sobre els temes seleccionats.",
+    "talks": {
+      "1": {
+        "title": "Autoritat sense autoritarisme",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "object": "Objectius:",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      },
+      "2": {
+        "title": "Límits, adolescents I altres mal de cap",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      }
+    }
   }
 }
