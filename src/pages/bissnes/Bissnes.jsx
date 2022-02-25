@@ -58,7 +58,7 @@ export const Bissnes = () => {
           alt=""
         />
       </div>
-      <Footer />
+      <Footer background="#50b9d0" />
     </main>
   );
 };
