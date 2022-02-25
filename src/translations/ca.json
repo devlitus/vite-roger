@@ -102,5 +102,18 @@
         "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
       }
     }
+  },
+  "trining": {
+    "pathUrl": "trining",
+    "titleh1": "La Formació a mida | Bonificada.",
+    "text1": "Els cursos i càpsules de coneixement, estan dirigits a diferents professionals de l’àmbit educatiu. Ja sigui mestres, rofessors, educadors, monitors, etc. Veureu que les formacions amb el Roger són molt amenes i divertides, i al mateix temps ens farà reflexionar sobre els temes seleccionats.",
+    "talks": {
+      "1": {
+        "title": "Autoritat sense autoritarisme",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "object": "Objectius:",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      }
+    }
   }
 }
