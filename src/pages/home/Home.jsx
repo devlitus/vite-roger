@@ -49,10 +49,12 @@ export const Home = () => {
           </Link>
         </div>
         <div className="polaroidWhite">
-          <CardPolaroid
-            src="/assets/resources/polaroidWhiteRect.png"
-            title="LA FORMACIÓ BONIFICADA PER EMPRESAS"
-          />
+          <Link to="/training">
+            <CardPolaroid
+              src="/assets/resources/polaroidWhiteRect.png"
+              title="LA FORMACIÓ BONIFICADA PER EMPRESAS"
+            />
+          </Link>
         </div>
       </div>
       <p className="home-title">vols saber més</p>
