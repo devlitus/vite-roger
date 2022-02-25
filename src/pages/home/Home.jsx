@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { CardPolaroid } from "../../components/card/CardPolaroid";
 import { Footer } from "../../components/footer/Footer";
 import { ImagePatern } from "../../components/paterns/patern";
@@ -32,16 +33,20 @@ export const Home = () => {
       </div>
       <div className="home-polaroid">
         <div className="polaroidClar">
-          <CardPolaroid
-            src="/assets/resources/polaroidClaraRectaImage.png"
-            title="XARRADES PER A FAMILIAS"
-          />
+          <Link to="/family">
+            <CardPolaroid
+              src="/assets/resources/polaroidClaraRectaImage.png"
+              title="XARRADES PER A FAMILIAS"
+            />
+          </Link>
         </div>
         <div className="polaroidBlue">
-          <CardPolaroid
-            src="/assets/resources/polaroidBlueRect.png"
-            title="FORMACIONS PROFESIONALS EDUCACIÓ"
-          />
+          <Link to="/bissnes">
+            <CardPolaroid
+              src="/assets/resources/polaroidBlueRect.png"
+              title="FORMACIONS PROFESIONALS EDUCACIÓ"
+            />
+          </Link>
         </div>
         <div className="polaroidWhite">
           <CardPolaroid
