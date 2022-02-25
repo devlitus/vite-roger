@@ -3,6 +3,17 @@
   margin-top: 4rem;
   background-color: var(--primaryColor);
 }
+.footer-bissnes {
+  width: 100%;
+  margin-top: 4rem;
+  background-color: var(--senaryColor);
+}
+.footer-training {
+  width: 100%;
+  margin-top: 4rem;
+  background-color: var(--septenaryColor);
+}
+
 .footer-content {
   width: 80%;
   height: 6vw;

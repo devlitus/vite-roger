@@ -1,8 +1,9 @@
 import { IconSocial } from "../iconSocial/IconSocial";
 import "./footer.css";
-export const Footer = () => {
+
+export const Footer = ({ background }) => {
   return (
-    <footer className="footer">
+    <footer className="footer" style={{ backgroundColor: background }}>
       <div className="footer-content">
         <IconSocial
           className="image-social"
