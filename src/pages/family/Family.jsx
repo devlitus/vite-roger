@@ -56,7 +56,14 @@ export const Family = () => {
           <CardPolaroid src="/assets/resources/polaroidBlueRect.png" />
         </div>
       </div>
-      <Footer />
+      <section className="home-footer">
+        <Footer />
+        <img
+          className="home-image-footer"
+          src="/assets/resources/arrow-rotate.png"
+          alt=""
+        />
+      </section>
     </main>
   );
 };

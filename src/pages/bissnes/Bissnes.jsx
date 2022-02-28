@@ -58,7 +58,14 @@ export const Bissnes = () => {
           alt=""
         />
       </div>
-      <Footer background="#50b9d0" />
+      <section className="home-footer">
+        <Footer background="#50b9d0" />
+        <img
+          className="home-image-footer"
+          src="/assets/resources/arrow-rotate.png"
+          alt=""
+        />
+      </section>
     </main>
   );
 };
