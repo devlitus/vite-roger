@@ -41,7 +41,8 @@
   position: relative;
 }
 .image-point {
-  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .content-title {
   font-size: 3.5vw;
@@ -70,9 +71,7 @@
   position: relative;
   margin-bottom: 9vw;
 }
-/* .image-point {
-  max-width: 100%;
-} */
+
 .takes-polaroid-image {
   position: absolute;
   top: -7.5vw;
