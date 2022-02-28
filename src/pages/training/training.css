@@ -26,7 +26,7 @@
   margin: 5vw 0 0 0;
 }
 .training-content-title {
-  font-size: 3.5vw;
+  font-size: clamp(var(--fontSize) + 1rem, 3vw, 3.5vw);
   color: var(--septenaryColor);
   font-weight: var(--fontWeightLight);
 }
@@ -36,25 +36,50 @@
   top: 10vw;
   left: -14.5vw;
 }
-.bissnes-polaroid-blue {
-  margin: 0 0 0 13.5vw;
-  transform: rotate(-8deg);
-}
-.bissnes-section-polaroid {
+.group1-image {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
-  align-items: flex-start;
-  height: 31vw;
+  align-items: center;
+  gap: 2vw;
+  margin-bottom: 3vw;
 }
-.bissnes-polaroid {
-  transform: rotate(-9deg);
-  margin-top: 10vw;
+.group1-image img {
+  width: 25%;
+  object-fit: cover;
+}
+.group1-image img:nth-child(2) {
+  width: 17%;
+  object-fit: cover;
+  transform: rotate(-10deg);
+  align-self: flex-end;
+}
+.group2-image {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2vw;
+  margin-bottom: 3vw;
+}
+.group2-image img {
+  width: 25%;
+  object-fit: cover;
+  margin-left: 5vw;
+}
+.group3-image {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.group3-image img {
+  width: 25%;
+  object-fit: cover;
 }
 @media screen and (max-width: 600px) {
   .bissnes-header {
     gap: 0 1rem;
-  }
-  .bissnes-content-title {
-    font-size: 1.7rem;
   }
 }

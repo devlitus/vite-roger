@@ -24,14 +24,27 @@ export const Training = () => {
           <p className="text-center-bold">{t("trining.talks.1.destination")}</p>
           <p className="text-center-blue">{t("trining.talks.1.object")}</p>
           <p className="text-center-normal">{t("trining.talks.1.objective")}</p>
-          <img
-            className="image-point"
-            src="/assets/resources/pointBrow.png"
-            alt=""
-          />
         </div>
       </div>
-
+      <img
+        className="image-point"
+        src="/assets/resources/pointBrow.png"
+        alt=""
+      />
+      <div className="training-content">
+        <div className="group1-image">
+          <img src="/assets/resources/polaroidBrownImage.png" alt="" />
+          <img src="/assets/resources/polaroidClaraRectaImage.png" alt="" />
+        </div>
+        <div className="group2-image">
+          <img src="/assets/resources/polaroidWhiteRect.png" alt="" />
+          <img src="/assets/resources/polaroidWhiteRect.png" alt="" />
+        </div>
+        <div className="group3-image">
+          <img src="/assets/resources/grafica.png" alt="" />
+          <img src="/assets/resources/polaroidWhiteRect.png" alt="" />
+        </div>
+      </div>
       <Footer background="#e18a30" />
     </main>
   );
