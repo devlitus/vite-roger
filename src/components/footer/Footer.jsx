@@ -5,26 +5,34 @@ export const Footer = ({ background }) => {
   return (
     <footer className="footer" style={{ backgroundColor: background }}>
       <div className="footer-content">
-        <IconSocial
-          className="image-social"
-          src="/assets/resources/emailClar.png"
-          alt="email"
-        />
-        <IconSocial
-          className="image-social"
-          src="/assets/resources/linkedinClar.png"
-          alt="linkedin"
-        />
-        <IconSocial
-          className="image-social"
-          src="/assets/resources/youtubeClar.png"
-          alt="youtube"
-        />
-        <IconSocial
-          className="image-social"
-          src="/assets/resources/instagramClar.png"
-          alt="instagram"
-        />
+        <a href="mailto:rogerllopart@rogerllopart.net" target="_blank">
+          <IconSocial
+            className="image-social"
+            src="/assets/resources/emailClar.png"
+            alt="email"
+          />
+        </a>
+        <a href="">
+          <IconSocial
+            className="image-social"
+            src="/assets/resources/linkedinClar.png"
+            alt="linkedin"
+          />
+        </a>
+        <a href="">
+          <IconSocial
+            className="image-social"
+            src="/assets/resources/youtubeClar.png"
+            alt="youtube"
+          />
+        </a>
+        <a href="">
+          <IconSocial
+            className="image-social"
+            src="/assets/resources/instagramClar.png"
+            alt="instagram"
+          />
+        </a>
         <p className="text-service">Serveis</p>
       </div>
     </footer>
