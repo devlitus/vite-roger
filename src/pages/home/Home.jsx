@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CardPolaroid } from "../../components/card/CardPolaroid";
 import { Footer } from "../../components/footer/Footer";
 import { ImagePatern } from "../../components/paterns/patern";
+import { SectionResource } from "../../components/sectionResource/SectionResource";
 import "./home.css";
 
 export const Home = () => {
@@ -58,18 +59,7 @@ export const Home = () => {
         </div>
       </div>
       <p className="home-title">vols saber més</p>
-      <div className="home-content-blog ">
-        <div className="content-blog-video">
-          <p className="content-blog-text">VIDEO</p>
-        </div>
-        <div className="content-blog-audio">AUDIO</div>
-        <div className="content-blog-blog">
-          <p className="content-blog-text">BLOG</p>
-        </div>
-        <div className="content-image-grafic">cuadrado</div>
-        <div className="content-image-grafic1">cuadrado</div>
-      </div>
-      <img className="arrowUp" src="/assets/resources/arrowUp.png" alt="" />
+      <SectionResource />
       <p className="home-title alter">Alguns del's meus clients</p>
       <div className="home-paterns">
         <ImagePatern

@@ -85,21 +85,7 @@
   word-spacing: 0.2rem;
   line-height: 1.7;
 }
-.home-content-blog {
-  width: calc(100% - 20vw);
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "video audio blog"
-    "video . blog"
-    "video . ."
-    "grafic grafic1 . ";
-  justify-content: center;
-  align-items: stretch;
-  gap: 2rem 3rem;
-}
+
 .home-paterns {
   width: calc(100% - 20vw);
   margin: auto;
@@ -115,46 +101,7 @@
   width: 70%;
   object-fit: cover;
 }
-.content-blog-video {
-  grid-area: video;
-  border: #000 solid 1px;
-  background-image: url("../../assets/resources/youtube.png");
-  background-size: fill;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.content-blog-audio {
-  border: #000 solid 1px;
-  grid-area: audio;
-}
-.content-blog-blog {
-  grid-area: blog;
-  background-image: url("../../assets/images/cortarBLog.png");
-  background-size: cover;
-  background-position: center;
-}
-.content-blog-text {
-  align-self: center;
-  /* justify-self: center; */
-  color: #fff;
-  font-size: 3rem;
-}
-.content-image-grafic {
-  border: #000 solid 1px;
-  grid-area: grafic;
-}
-.content-image-grafic1 {
-  border: #000 solid 1px;
-  grid-area: grafic1;
-}
-.content-image-arrow-up {
-  grid-area: arrowUp;
-  grid-column: 3 / span 2;
-  background-image: url("../../assets/resources/arrowUp.png");
-  background-size: cover;
-  background-position: center;
-  aspect-ratio: 2 / 1;
-}
+
 .home-image-arrow-up {
   object-fit: cover;
   width: 100%;
@@ -164,13 +111,7 @@
   padding-right: 26vw;
   line-height: 1.2;
 }
-.arrowUp {
-  position: relative;
-  width: calc(100% / 5);
-  object-fit: fill;
-  top: -10vw;
-  left: 57vw;
-}
+
 .home-footer {
   position: relative;
 }
@@ -188,24 +129,11 @@
   .home-content-text {
     line-height: 1.3;
   }
-  .home-content-blog {
-    width: calc(100% - 3rem);
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      "video audio"
-      "video blog"
-      "grafic grafic1";
-    gap: 2rem 1rem;
-  }
+
   .alter {
     margin: 2rem 0 3rem 0;
     padding-right: 26vw;
     line-height: 1.2;
   }
-  .arrowUp {
-    display: none;
-  }
+  
 }
