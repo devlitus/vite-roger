@@ -11,17 +11,35 @@
     "cite": "“La educació no canvia el món; canvia a les persones que van a canviar el món”",
     "citeAuthor": "Pablo Freire.",
     "curriculum": {
-      "parraf1": "Doctor en Educació i Societat per a la Universitat de Barcelona, Diplomat en Educació Social (URL), Llicenciat en Pedagogia, Màster en Intervencions Socials i Educatives (UB) i Tècnic en Animació sociocultural.",
-      "parraf2": "Una trajectòria professional encaminada cap al món de la infància I adolescència amb més de 25 anys d’experiència, s’inicia en el món de l’associacionisme educatiu, ha estat professor de secundària I de cicles formatius. La seva tasca com educador social vinculada entre l’animació sociocultural i la infància amb protecció, en diversos recursos educatius, com ara CRAE i      CREI entre ells Can Rubió.",
-      "parraf3": "En l’actualitat compagina la seva tasca educativa a l’Àrea de Joves Extutelats de la DGAIA, amb la de professor col·laborador de la UOC. Realitza formacions, xerrades i tallers per a professionals i famílies. Col·laborador de diversos      mitjans de comunicació entre ells els Matins de Radio4 (RNE). Pare de dues criatures I Pedagog les 24 hores al dia, set dies per setmana."
+      "parraf1": "Doctor en Educación y Sociedad para la Universidad de Barcelona, Diplomado en Educación Social (URL), Licenciado en Pedagogía, Máster en Intervenciones Sociales y Educativas (UB) y Técnico en Animación sociocultural.",
+      "parraf2": "Una trayectoria profesional encaminada hacia el mundo de la infancia y adolescencia con más de 25 años de experiencia, se inicia en el mundo del asociacionismo educativo, ha sido profesor de secundaria I de ciclos formativos. Su labor como educador social vinculada entre la animación sociocultural y la infancia con protección, en diversos recursos educativos, como CRAE y CREI entre ellos Can Rubió.",
+      "parraf3": "En la actualidad compagina su labor educativa en el Área de Jóvenes Extutelados de la DGAIA, con la de profesor colaborador de la UOC. Realiza formaciones, charlas y talleres para profesionales y familias. Colaborador de varios medios de comunicación entre ellos los Matins de Radio4 (RNE). Padre de dos criaturas Y Pedagogo las 24 horas al día, siete días por semana."
     },
-    "parrafBLue": "La societat actual, és líquida (Bauman, 2013) està en constant transformació, vivim en un mar d’incertesa amb petits arxipèlag de certesa. Reptes i desafiaments els observem des d’una perspectiva global, com puguin ser la sostenibilitat, la iversitat, el gènere i l’avanç de noves formes d’intolerància. És per això, que la frase de Freire té més validesa que mai.",
-    "title": "La meva manera d’entendre la pedagogia: 6 irrenunciables.",
+    "parrafBLue": "La sociedad actual, es líquida (Bauman, 2013) está en constante transformación, vivimos en un mar de incertidumbre con pequeños archipiélagos de certeza. Retos y desafíos los observamos desde una perspectiva global, como la sostenibilidad, la iversidad, el género y el avance de nuevas formas de intolerancia. Por eso, la frase de Freire tiene más validez que nunca.",
+    "title": "Mi forma de entender la pedagogía: 6 irrenunciables.",
     "inalienable": {
       "parraf": "Ra classe tradicional ha mort, les noves metodologies s’obren pas I conviuen amb la classe magistral. Aprenem de mentre fem I de forma col·laborativa. Aix l’Ensenyament – l’Aprenentatge ha d’implicar, definir el paper del docent, I veure’l com aquell que acompanya als alumnes en el seu propi procés d’aprenentatge, un catalitzador del saber. Que disposa d’un bon coneixement de com s’aprèn i amb unes bones habilitats socials I humanes. Donat més valor a l’esforç que als resultats, posant l’accent amb les   potencialitats el talent dels participants."
     }
   },
   "contact": {
     "pathUrl": "Contacto"
+  },
+  "family": {
+    "pathUrl": "Família",
+    "titleh1": "Charlas para Familias",
+    "text1": "Las charlas y talleres están dirigidos a las familias, y Roger hace que sean muy amenas y divertidas, y al mismo tiempo nos harán reflexionar sobre los temas seleccionados. Están diseñados en varios formatos:",
+    "text2": "Charla. Duración de 90 minutos. [50 minutos de charla + 40 m. Debate y preguntas] Talleres. Duración 120 minutos Con un mínimo de dos sesiones. Grupos reducidos. Dinámicas grupales."
+  },
+  "talks": {
+    "1": {
+      "title": "Límits, enrabiades i altres mal de caps",
+      "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+      "objectives": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+    },
+    "2": {
+      "titleLimit": "Límits, adolescents I altres mal de cap",
+      "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+      "objectives": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+    }
   }
 }

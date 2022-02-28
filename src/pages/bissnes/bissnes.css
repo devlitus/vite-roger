@@ -1,0 +1,60 @@
+.bissnes-header {
+  background-color: var(--senaryColor);
+  height: 13vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0 2rem;
+}
+.bissnes-header h1 {
+  margin: 1vw 0 0 0;
+  padding: 0;
+  font-size: clamp(5vw, 13vw, 25vw);
+  font-weight: var(--fontWeightLight);
+  color: var(--primaryColor);
+  text-shadow: 0 0 5px #000;
+}
+.bissnes-content {
+  max-width: 80vw;
+  margin: auto;
+}
+.bissnes-content h1 {
+  width: 15ch;
+  color: var(--senaryColor);
+  font-size: 7vw;
+  margin: 5vw 0 0 0;
+}
+.bissnes-content-title {
+  font-size: 3.5vw;
+  color: var(--senaryColor);
+  font-weight: var(--fontWeightLight);
+}
+.arrow-down {
+  position: absolute;
+  width: 17vw;
+  top: 10vw;
+  left: -14.5vw;
+}
+.bissnes-polaroid-blue {
+  margin: 0 0 0 13.5vw;
+  transform: rotate(-8deg);
+}
+.bissnes-section-polaroid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 31vw;
+}
+.bissnes-polaroid {
+  transform: rotate(-9deg);
+  margin-top: 10vw;
+}
+@media screen and (max-width: 600px) {
+  .bissnes-header {
+    gap: 0 1rem;
+  }
+  .bissnes-content-title {
+    font-size: 1.7rem;
+  }
+}

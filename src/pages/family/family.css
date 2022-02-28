@@ -1,0 +1,142 @@
+.family-header {
+  background-color: var(--primaryColor);
+  height: 13vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0 2rem;
+}
+.family-header h1 {
+  margin: 1vw 0 0 0;
+  padding: 0;
+  font-size: clamp(5vw, 13vw, 25vw);
+  font-weight: var(--fontWeightLight);
+  color: var(--quaternaryColor);
+  text-shadow: 0 0 5px #000;
+}
+.image-rotate {
+  width: 37vw;
+  object-fit: cover;
+  right: 0;
+  margin-top: 4vw;
+}
+.family-content {
+  max-width: 80vw;
+  margin: auto;
+}
+.family-content h1 {
+  width: 17ch;
+  color: var(--quinaryColor);
+  font-size: 7vw;
+  margin: 5vw 0 0 0;
+}
+.text {
+  width: 45ch;
+  font-size: 2.2vw;
+  line-height: 1.7;
+  color: var(--color);
+}
+.point-polaroid {
+  position: relative;
+}
+.image-point {
+  width: 100%;
+  object-fit: cover;
+}
+.content-title {
+  font-size: 3.5vw;
+  color: var(--primaryColor);
+  font-weight: var(--fontWeightLight);
+}
+.text-center {
+  width: 65%;
+  margin: auto;
+  color: var(--color);
+  font-size: 2.5vw;
+  line-height: var(--lineHeight);
+}
+.text-center-bold {
+  font-weight: var(--fontWeightBold);
+}
+.text-center-blue {
+  color: var(--tertiaryColor);
+}
+.text-center-normal {
+  width: 40ch;
+  color: var(--color);
+}
+.point-polaroid {
+  margin-top: 15vw;
+  position: relative;
+  margin-bottom: 9vw;
+}
+
+.takes-polaroid-image {
+  position: absolute;
+  top: -7.5vw;
+  left: 42vw;
+  transform: rotate(9deg);
+}
+.content-variant {
+  position: relative;
+}
+.arrow-up-rect {
+  position: absolute;
+  width: 20vw;
+  top: 23vw;
+  left: -16.5vw;
+  transform: rotate(-17deg);
+}
+.section-polaroid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 31vw;
+}
+.takes-polaroid {
+  transform: rotate(-9deg);
+  margin-bottom: 10rem;
+}
+.takes-polaroid-blue {
+  margin-top: 2vw;
+}
+@media screen and (max-width: 600px) {
+  .family-header {
+    gap: 0 1rem;
+  }
+  .image-rotate {
+    top: 3.7rem;
+  }
+  .text {
+    width: 25ch;
+    font-size: var(--fontSize);
+  }
+  .content-title {
+    font-size: 1.7rem;
+  }
+  .text-center {
+    width: 75%;
+    margin: auto;
+    font-size: var(--fontSize);
+  }
+  .text-center-normal {
+    width: 22ch;
+  }
+  .point-polaroid {
+    margin-bottom: 4.5vw;
+  }
+  .takes-polaroid-image {
+    position: absolute;
+    top: -6.5vw;
+    left: 35vw;
+  }
+  .arrow-up-rect {
+    width: 22vw;
+    top: 94vw;
+    left: -17.5vw;
+  }
+  .takes-polaroid {
+    margin-bottom: 5rem;
+  }
+}

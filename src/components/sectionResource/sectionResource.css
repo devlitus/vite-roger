@@ -1,0 +1,60 @@
+.section-resources {
+  width: 70vw;
+  margin: auto;
+}
+.box-resource {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.recoure-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: #000 solid 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.resource-video {
+  height: 30vw;
+  background-image: url("../../assets/resources/youtubeBlue.png");
+  background-color: #629cbd;
+}
+.resource-audio {
+  height: 15vw;
+  background-image: url("../../assets/images/megaphone.png");
+}
+.resource-blog {
+  height: 20vw;
+  background-image: url("../../assets/images/cortarBLog.png");
+}
+.resource-grafic {
+  height: 20vw;
+  background-image: url("../../assets/images/equalizer.png");
+}
+.resource-arrowUp {
+  border: none;
+  width: 81vw;
+  background-image: url("../../assets/resources/arrowUp.png");
+}
+.resource-text {
+  color: #fff;
+  font-size: 4vw;
+  font-weight: var(--fontWeightMedium);
+  align-self: center;
+  justify-self: center;
+}
+@media screen and (max-width: 600px) {
+  .section-resources {
+    width: 90vw;
+  }
+  .resource-arrowUp {
+    width: 100vw;
+  }
+  .resource-text {
+    font-size: var(--fontSize);
+  }
+}
