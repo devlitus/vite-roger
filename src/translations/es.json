@@ -18,28 +18,102 @@
     "parrafBLue": "La sociedad actual, es líquida (Bauman, 2013) está en constante transformación, vivimos en un mar de incertidumbre con pequeños archipiélagos de certeza. Retos y desafíos los observamos desde una perspectiva global, como la sostenibilidad, la iversidad, el género y el avance de nuevas formas de intolerancia. Por eso, la frase de Freire tiene más validez que nunca.",
     "title": "Mi forma de entender la pedagogía: 6 irrenunciables.",
     "inalienable": {
-      "parraf": "Ra classe tradicional ha mort, les noves metodologies s’obren pas I conviuen amb la classe magistral. Aprenem de mentre fem I de forma col·laborativa. Aix l’Ensenyament – l’Aprenentatge ha d’implicar, definir el paper del docent, I veure’l com aquell que acompanya als alumnes en el seu propi procés d’aprenentatge, un catalitzador del saber. Que disposa d’un bon coneixement de com s’aprèn i amb unes bones habilitats socials I humanes. Donat més valor a l’esforç que als resultats, posant l’accent amb les   potencialitats el talent dels participants."
+      "parraf": "Dar clase tradicional ha muerto, las nuevas metodologías se abren paso y conviven con la clase magistral. Aprendemos mientras hacemos I de forma colaborativa. Así la Enseñanza – el Aprendizaje debe implicar, definir el papel del docente, y verle como aquel que acompaña a los alumnos en su propio proceso de aprendizaje, un catalizador del saber. Que dispone de un buen conocimiento de cómo se aprende y con unas buenas habilidades sociales y humanas. Dado más valor en el esfuerzo que en los resultados, poniendo el acento con las potencialidades el talento de los participantes."
+    },
+    "list": {
+      "item1": {
+        "title": "Ecosistemas de aprendizaje.",
+        "content": "Repensar la Enseñanza – el Aprendizaje debe implicar, ir mucho más allá de las cuatro paredes del aula y de la figura del docente. Es necesario potenciar unos aprendizajes conectados con la realidad de la comunidad y de su entorno. En todo momento, en todos los espacios aprovechando todas las oportunidades que se presenten."
+      },
+      "item2": {
+        "title": "El clima social.",
+        "content": "Repensar la Enseñanza – el Aprendizaje debe implicar, ir mucho más allá de las cuatro paredes del aula y de la figura del docente. Es necesario potenciar unos aprendizajes conectados con la realidad de la comunidad y de su entorno. En todo momento, en todos los espacios aprovechando todas las oportunidades que se presenten."
+      },
+      "item3": {
+        "title": "Metodología.",
+        "content": "Repensar la Enseñanza – el Aprendizaje debe implicar, ir mucho más allá de las cuatro paredes del aula y de la figura del docente. Es necesario potenciar unos aprendizajes conectados con la realidad de la comunidad y de su entorno. En todo momento, en todos los espacios aprovechando todas las oportunidades que se presenten."
+      },
+      "item4": {
+        "title": "Finalidad de la educación.",
+        "content": "Repensar la Enseñanza – el Aprendizaje debe implicar, ir mucho más allá de las cuatro paredes del aula y de la figura del docente. Es necesario potenciar unos aprendizajes conectados con la realidad de la comunidad y de su entorno. En todo momento, en todos los espacios aprovechando todas las oportunidades que se presenten."
+      },
+      "item5": {
+        "title": "La figura del docente.",
+        "content": "Repensar l’Ensenyament – l’Aprenentatge ha d’implicar, anar molt més enllà de les quatre parets de l’aula i de la figura del docent. Cal potenciar uns aprenentatges connectats amb la realitat de la comunitat i del seu entorn. En tot moment, en tots els espais, aprofitant totes les oportunitats que es presentin."
+      },
+      "item6": {
+        "title": "Les tecnologies de la informació.",
+        "content": "Repensar la Enseñanza – el Aprendizaje debe implicar, ir mucho más allá de las cuatro paredes del aula y de la figura del docente. Es necesario potenciar unos aprendizajes conectados con la realidad de la comunidad y de su entorno. En todo momento, en todos los espacios aprovechando todas las oportunidades que se presenten."
+      }
+    },
+    "principis": {
+      "title": "Los principios de la cosecha:",
+      "esfros": "Esfuerzo",
+      "generositat": "La generosidad",
+      "humilitat": "Humildad",
+      "perseverança": "Perseverancia",
+      "estima": "Amar el trabajo",
+      "atreviment": "Atrevimiento",
+      "creativitat": "La creatividad",
+      "passion": "La pasión",
+      "curiositat": "Curiosidad",
+      "paradoxa": "La paradoja",
+      "humor": "Humor",
+      "canvi": "El cambio"
     }
   },
   "contact": {
-    "pathUrl": "Contacto"
+    "pathUrl": "Contacto",
+    "cite": "“Todos los adultos fueron alguna vez niños... pero sólo unos pocos lo recuerdan.”"
   },
   "family": {
     "pathUrl": "Família",
     "titleh1": "Charlas para Familias",
     "text1": "Las charlas y talleres están dirigidos a las familias, y Roger hace que sean muy amenas y divertidas, y al mismo tiempo nos harán reflexionar sobre los temas seleccionados. Están diseñados en varios formatos:",
-    "text2": "Charla. Duración de 90 minutos. [50 minutos de charla + 40 m. Debate y preguntas] Talleres. Duración 120 minutos Con un mínimo de dos sesiones. Grupos reducidos. Dinámicas grupales."
+    "text2": "Charla. Duración de 90 minutos. [50 minutos de charla + 40 minutos Debate y preguntas] ",
+    "text3": "Talleres. Duración 120 minutos Con un mínimo de dos sesiones. Grupos reducidos. Dinámicas grupales.",
+    "talks": {
+      "1": {
+        "title": "Límites, rabietas y otros dolores de cabeza",
+        "destination": "Destinatarios: Familias con hijos e hijas de 3 a 12 años.",
+        "object": "Objetivos:",
+        "objective": "Se ofrecerán distintos recursos y estrategias dirigidas a las familias. Cómo podemos trabajar los límites sin dañar la autoestima de los niños, y al mismo tiempo mantener la convivencia y el clima familiar, con las consecuencias lógicas y naturales. Podemos educar con alternativas al castigo."
+      },
+      "2": {
+        "title": "Límites, adolescentes Y otros dolores de cabeza",
+        "destination": "Destinatarios: Familias con hijos e hijas de 3 a 12 años.",
+        "objective": "Se ofrecerán distintos recursos y estrategias dirigidas a las familias. Cómo podemos trabajar los límites sin dañar la autoestima de los niños, y al mismo tiempo mantener la convivencia y el clima familiar, con las consecuencias lógicas y naturales. Podemos educar con alternativas al castigo."
+      }
+    }
   },
-  "talks": {
-    "1": {
-      "title": "Límits, enrabiades i altres mal de caps",
-      "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
-      "objectives": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
-    },
-    "2": {
-      "titleLimit": "Límits, adolescents I altres mal de cap",
-      "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
-      "objectives": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+  "bissnes": {
+    "pathUrl": "Professionals",
+    "titleh1": "Para profesionales del ámbito social y educativo.",
+    "text1": "Los cursos y cápsulas de conocimiento están dirigidos a diferentes profesionales del ámbito educativo. Ya sea maestros, rofesores, educadores, monitores, etc. Verá que las formaciones con Roger son muy amenas y divertidas, y al mismo tiempo nos hará reflexionar sobre los temas seleccionados.",
+    "talks": {
+      "1": {
+        "title": "Autoridad sin autoritarismo",
+        "destination": "Destinatarios: Familias con hijos e hijas de 3 a 12 años.",
+        "objective": "Se ofrecerán distintos recursos y estrategias dirigidas a las familias. Cómo podemos trabajar los límites sin dañar la autoestima de los niños, y al mismo tiempo mantener la convivencia y el clima familiar, con las consecuencias lógicas y naturales. Podemos educar con alternativas al castigo."
+      },
+      "2": {
+        "title": "Límits, adolescents I altres mal de cap",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      }
+    }
+  },
+  "trining": {
+    "pathUrl": "trining",
+    "titleh1": "La formación a medida | Bonificada.",
+    "text1": "Los cursos y cápsulas de conocimiento están dirigidos a diferentes profesionales del ámbito educativo. Ya sea maestros, rofesores, educadores, monitores, etc. Verá que las formaciones con Roger son muy amenas y divertidas, y al mismo tiempo nos hará reflexionar sobre los temas seleccionados.",
+    "talks": {
+      "1": {
+        "title": "Autoritat sense autoritarisme",
+        "destination": "Destinataris: Famílies amb fills I filles de 3 a 12 anys.",
+        "object": "Objectius:",
+        "objective": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, I al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig."
+      }
     }
   }
 }
