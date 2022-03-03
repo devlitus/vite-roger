@@ -103,12 +103,21 @@ export const About = () => {
           <p className='text-valor'>{t('about.principis.canvi')}</p>
         </div>
         <img
+          loading='lazy'
           className='image-arrowUp'
           src='/assets/resources/arrowDownRect.png'
           alt=''
         />
       </div>
-      <Footer />
+      <section className='home-footer'>
+        <Footer />
+        <img
+          loading='lazy'
+          className='home-image-footer'
+          src='/assets/resources/arrow-rotate.png'
+          alt=''
+        />
+      </section>
     </div>
   );
 };
