@@ -42,7 +42,7 @@
   color: var(--quaternaryColor);
   top: 5vw;
   left: 5vw;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-shadow: 0 2px 5px #000;
 }
 .home-content {
@@ -51,8 +51,9 @@
 }
 .home-content-text {
   margin-top: 10vw;
+  width: 45ch;
   font-size: clamp(1rem, 2vw, 3rem);
-  word-spacing: 0.2rem;
+  word-spacing: 0.1rem;
   line-height: 1.7;
 }
 .home-polaroid {
@@ -66,14 +67,26 @@
   justify-self: center;
   transform: rotate(-9deg);
   margin-left: 1rem;
+  transition: all ease 0.5s;
+}
+.polaroidClar:hover {
+  transform: scale(1.1);
 }
 .polaroidBlue {
   justify-self: center;
+  transition: all ease 0.5s;
+}
+.polaroidBlue:hover {
+  transform: scale(1.1);
 }
 .polaroidWhite {
   justify-self: center;
   transform: rotate(9deg);
   margin-right: 1rem;
+  transition: all ease 0.5s;
+}
+.polaroidWhite:hover {
+  transform: scale(1.1);
 }
 .home-title {
   margin: 9vw 0 2rem 0;
@@ -127,6 +140,7 @@
     width: calc(100% - 15vw);
   }
   .home-content-text {
+    width: 27ch;
     line-height: 1.3;
   }
 
