@@ -42,7 +42,7 @@
   color: var(--quaternaryColor);
   top: 5vw;
   left: 5vw;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-shadow: 0 2px 5px #000;
 }
 .home-content {
