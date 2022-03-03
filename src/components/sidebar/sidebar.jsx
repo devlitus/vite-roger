@@ -11,6 +11,7 @@ export const Sidebar = ({ isSidebarOpen, handlerClickOpen }) => {
   const { t } = useTranslation();
   const handleChangeLanguage = () => {
     changeLanguage(language === 'ca' ? 'es' : 'ca');
+    handlerClickOpen();
   };
   return (
     <nav
