@@ -22,6 +22,9 @@
   height: 30vw;
   background-image: url("../../assets/resources/youtubeBlue.png");
   background-color: #629cbd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .resource-audio {
   height: 15vw;
