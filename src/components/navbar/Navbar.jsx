@@ -1,11 +1,11 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
-import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
-import { Navigation } from "../navigator/Navigator";
-import { Sidebar } from "../sidebar/sidebar";
-import "./navbar.css";
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
+import { Navigation } from '../navigator/Navigator';
+import { Sidebar } from '../sidebar/sidebar';
+import './navbar.css';
 
 export const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -17,17 +17,17 @@ export const Navbar = () => {
   };
   const location = useLocation();
   const backgroundColor =
-    location.pathname === "/training"
-      ? "#E18A30"
-      : location.pathname === "/bissnes"
-      ? "#50B9D0"
-      : "#005F94";
+    location.pathname === '/training'
+      ? '#E18A30'
+      : location.pathname === '/bissnes'
+        ? '#50B9D0'
+        : '#005F94';
   return (
-    <header className="navbar" style={{ backgroundColor: backgroundColor }}>
-      <p className="navbar-title">{t("home.textHeader")}</p>
+    <header className='navbar' style={{ backgroundColor: backgroundColor }}>
+      <p className='navbar-title'>{t('home.textHeader')}</p>
       <FontAwesomeIcon
         icon={faBars}
-        className="navbar-icon"
+        className='navbar-icon'
         onClick={handlerClickOpen}
       />
       {isVisibility && (
@@ -36,7 +36,7 @@ export const Navbar = () => {
           handlerClickOpen={handlerClickOpen}
         />
       )}
-      <div className="navbar-movile">
+      <div className='navbar-movile'>
         <Navigation />
       </div>
     </header>

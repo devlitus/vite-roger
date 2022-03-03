@@ -28,11 +28,11 @@
 .family-content h1 {
   width: 17ch;
   color: var(--quinaryColor);
-  font-size: 7vw;
+  font-size: 6vw;
   margin: 5vw 0 0 0;
 }
 .text {
-  width: 45ch;
+  width: 50ch;
   font-size: 2.2vw;
   line-height: 1.7;
   color: var(--color);

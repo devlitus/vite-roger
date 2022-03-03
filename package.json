@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "standard --fix"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -19,6 +20,16 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "standard": "16.0.4",
     "vite": "^2.7.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
   }
 }

@@ -5,7 +5,7 @@
   flex-flow: row nowrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 0 2rem;
+  gap: 0 0.7rem;
 }
 .training-header h1 {
   margin: 1vw 0 0 0;
@@ -20,9 +20,9 @@
   margin: auto;
 }
 .training-content h1 {
-  width: 15ch;
+  width: 16ch;
   color: var(--octonaryColor);
-  font-size: 7vw;
+  font-size: 6vw;
   margin: 5vw 0 0 0;
 }
 .training-content-title {
@@ -30,12 +30,7 @@
   color: var(--septenaryColor);
   font-weight: var(--fontWeightLight);
 }
-.arrow-down {
-  position: absolute;
-  width: 17vw;
-  top: 10vw;
-  left: -14.5vw;
-}
+
 .group1-image {
   display: flex;
   flex-flow: row nowrap;
@@ -79,7 +74,4 @@
   object-fit: cover;
 }
 @media screen and (max-width: 600px) {
-  .bissnes-header {
-    gap: 0 1rem;
-  }
 }

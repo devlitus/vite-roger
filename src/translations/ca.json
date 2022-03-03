@@ -12,7 +12,7 @@
     "citeAuthor": "Pablo Freire.",
     "curriculum": {
       "parraf1": "Doctor en Educació i Societat per a la Universitat de Barcelona, Diplomat en Educació Social (URL), Llicenciat en Pedagogia, Màster en Intervencions Socials i Educatives (UB) i Tècnic en Animació sociocultural.",
-      "parraf2": "Una trajectòria professional encaminada cap al món de la infància I adolescència amb més de 25 anys d’experiència, s’inicia en el món de l’associacionisme educatiu, ha estat professor de secundària I de cicles formatius. La seva tasca com educador social vinculada entre l’animació sociocultural i la infància amb protecció, en diversos recursos educatius, com ara CRAE i      CREI entre ells Can Rubió.",
+      "parraf2": "Una trajectòria professional encaminada cap al món de la infància I adolescència amb més de 25 anys d’experiència, s’inicia en el món de l’associacionisme educatiu, ha estat professor de secundària I de cicles formatius. La seva tasca com educador social vinculada entre l’animació sociocultural i la infància amb protecció, en diversos recursos educatius, com ara CRAE i CREI entre ells Can Rubió.",
       "parraf3": "En l’actualitat compagina la seva tasca educativa a l’Àrea de Joves Extutelats de la DGAIA, amb la de professor col·laborador de la UOC. Realitza formacions, xerrades i tallers per a professionals i famílies. Col·laborador de diversos      mitjans de comunicació entre ells els Matins de Radio4 (RNE). Pare de dues criatures I Pedagog les 24 hores al dia, set dies per setmana."
     },
     "parrafBLue": "La societat actual, és líquida (Bauman, 2013) està en constant transformació, vivim en un mar d’incertesa amb petits arxipèlag de certesa. Reptes i desafiaments els observem des d’una perspectiva global, com puguin ser la sostenibilitat, la iversitat, el gènere i l’avanç de noves formes d’intolerància. És per això, que la frase de Freire té més validesa que mai.",
@@ -70,7 +70,8 @@
     "pathUrl": "Família",
     "titleh1": "Xerrades per a Families",
     "text1": "Les xerrades i els tallers estan dirigits a les famílies, i el Roger fa que siguin molt amenes i divertides, i al mateix temps ens faran reflexionar sobre els temes seleccionats. Estan dissenyats en diversos formats:",
-    "text2": "Xerrada. Duració de 90 minuts. [50 minuts de xerrada + 40 m. Debat i preguntes] Tallers. Duració 120 minuts Amb un mínim de dues sessions. Grups reduïts. Dinàmiques grupals.",
+    "text2": "Xerrada. Duració de 90 minuts. [50 minuts de xerrada + 40 minuts Debat i preguntes]",
+    "text3": "Tallers. Duració 120 minuts Amb un mínim de dues sessions. Grups reduïts. Dinàmiques grupals.",
     "talks": {
       "1": {
         "title": "Límits, enrabiades i altres mal de caps",
