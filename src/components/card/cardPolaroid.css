@@ -23,4 +23,5 @@
   font-size: clamp(2.5vw, 1.5vw, var(--fontSize));
   text-align: center;
   top: -2vw;
+  color: #000;
 }
