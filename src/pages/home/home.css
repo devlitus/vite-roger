@@ -135,5 +135,7 @@
     padding-right: 26vw;
     line-height: 1.2;
   }
-  
+  .home-image-footer {
+    display: none;
+  }
 }

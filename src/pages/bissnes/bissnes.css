@@ -26,9 +26,11 @@
   margin: 5vw 0 0 0;
 }
 .bissnes-content-title {
-  font-size: 3.5vw;
+  width: 20ch;
+  font-size: 5vw;
   color: var(--senaryColor);
   font-weight: var(--fontWeightLight);
+  text-shadow: 0px 1px 2px rgb(0, 0, 0);
 }
 .arrow-down {
   position: absolute;
@@ -56,5 +58,9 @@
   }
   .bissnes-content-title {
     font-size: 1.7rem;
+  }
+  .arrow-down {
+    top: 75vw;
+    left: -15.5vw;
   }
 }

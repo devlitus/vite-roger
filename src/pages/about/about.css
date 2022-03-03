@@ -125,6 +125,7 @@
 }
 .about-thought > p {
   width: 48ch;
+  font-size: clamp(var(--fontSize), 1vw, 2vw);
   font-weight: var(--fontWeightLight);
   color: var(--color);
   line-height: var(--lineHeight);
@@ -251,6 +252,7 @@
   }
   .about-thought > p {
     width: 27ch;
+    font-size: 16px;
   }
   .about-list {
     width: 100%;
