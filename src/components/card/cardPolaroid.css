@@ -5,8 +5,8 @@
   position: absolute;
 }
 .polaroid-image {
+  max-width: 20vw;
   object-fit: cover;
-  width: 25vw;
 }
 
 .image {
