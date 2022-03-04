@@ -131,7 +131,7 @@
 .home-image-footer {
   position: absolute;
   top: -7vw;
-  right: 5vw;
+  right: 11vw;
   width: 20%;
   object-fit: cover;
 }
@@ -148,8 +148,5 @@
     margin: 2rem 0 3rem 0;
     padding-right: 26vw;
     line-height: 1.2;
-  }
-  .home-image-footer {
-    display: none;
   }
 }
