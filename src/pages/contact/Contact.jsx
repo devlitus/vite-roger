@@ -44,8 +44,9 @@ export const Contact = () => {
           </a>
         </div>
         <div>
-          <div className='content-phone-email'>
+          <div className='animate__animated animate__backInDown content-phone-email'>
             <img
+              loading='lazy'
               className='image-phone'
               src='/assets/resources/phone.png'
               alt=''

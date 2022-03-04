@@ -28,6 +28,7 @@ export const Family = () => {
       </div>
       <div className='point-polaroid'>
         <img
+          loading='lazy'
           className='image-point'
           src='/assets/resources/pointsClaros.png'
           alt=''
@@ -43,6 +44,7 @@ export const Family = () => {
           <p className='text-center-blue'>{t('family.talks.1.object')}</p>
           <p className='text-center-normal'>{t('family.talks.2.objective')}</p>
           <img
+            loading='lazy'
             className='arrow-up-rect'
             src='/assets/resources/arrowUpRect.png'
             alt=''
@@ -60,6 +62,7 @@ export const Family = () => {
       <section className='home-footer'>
         <Footer />
         <img
+          loading='lazy'
           className='home-image-footer'
           src='/assets/resources/arrow-rotate.png'
           alt=''

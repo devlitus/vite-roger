@@ -12,6 +12,7 @@ export const Home = () => {
     <main className='home-wrapper'>
       <header className='home-header'>
         <img
+          loading='lazy'
           className='home-image'
           src='/assets/images/bg/bg-header.png'
           alt='Roger Llopart'
@@ -23,6 +24,7 @@ export const Home = () => {
       </header>
       <div className='home-section'>
         <img
+          loading='lazy'
           className='home-arrow'
           src='/assets/resources/arrow-rotate.png'
           alt='arrow'
@@ -37,7 +39,7 @@ export const Home = () => {
           <Link to='/family'>
             <CardPolaroid
               src='/assets/resources/polaroidClaraRectaImage.png'
-              title='XARRADES PER A FAMILIAS'
+              title={t('home.title-services-talks')}
             />
           </Link>
         </div>
@@ -45,7 +47,7 @@ export const Home = () => {
           <Link to='/bissnes'>
             <CardPolaroid
               src='/assets/resources/polaroidBlueRect.png'
-              title='FORMACIONS PROFESIONALS EDUCACIÓ'
+              title={t('home.title-services-education')}
             />
           </Link>
         </div>
@@ -53,14 +55,14 @@ export const Home = () => {
           <Link to='/training'>
             <CardPolaroid
               src='/assets/resources/polaroidWhiteRect.png'
-              title='LA FORMACIÓ BONIFICADA PER EMPRESAS'
+              title={t('home.title-services-bissnes')}
             />
           </Link>
         </div>
       </div>
-      <p className='home-title'>vols saber més</p>
+      <p className='home-title'>{t('home.title-1')}</p>
       <SectionResource />
-      <p className='home-title alter'>Alguns del's meus clients</p>
+      <p className='home-title alter'>{t('home.title-2')}</p>
       <div className='home-paterns'>
         <ImagePatern
           className='image-patern'
