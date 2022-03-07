@@ -57,7 +57,7 @@
   line-height: 1.7;
 }
 .home-polaroid {
-  max-width: 85vw;
+  max-width: 70vw;
   margin: 7rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
