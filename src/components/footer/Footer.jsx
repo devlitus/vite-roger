@@ -6,7 +6,7 @@ export const Footer = ({ background }) => {
   const { t } = useTranslation();
   return (
     <footer className='footer' style={{ backgroundColor: background }}>
-      <div className='footer-content'>
+      <div className='footer-content-icon'>
         <a href='mailto:rogerllopart@rogerllopart.net' target='_blank' rel='noreferrer'>
           <IconSocial
             src='/assets/resources/emailClar.png'
@@ -31,9 +31,14 @@ export const Footer = ({ background }) => {
             alt='instagram'
           />
         </a>
-        <div className='footer-title'>
-          <p className='text-service'>{t('home.titleSection')}</p>
-        </div>
+        <p className='footer-text'>{t('home.titleSection')}</p>
+      </div>
+      <div className='footer-content-arrow'>
+        <img
+          className='footer-arrow-image'
+          src='/assets/resources/arrow-rotate.png'
+          alt=''
+        />
       </div>
     </footer>
   );

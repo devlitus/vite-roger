@@ -45,14 +45,7 @@ export const Training = () => {
           <img src='/assets/resources/polaroidWhiteRect.png' alt='' />
         </div>
       </div>
-      <section className='home-footer'>
-        <Footer background='#e18a30' />
-        <img
-          className='home-image-footer'
-          src='/assets/resources/arrow-rotate.png'
-          alt=''
-        />
-      </section>
+      <Footer background='#e18a30' />
     </main>
   );
 };

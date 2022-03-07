@@ -5,7 +5,7 @@
   position: absolute;
 }
 .polaroid-image {
-  max-width: 20vw;
+  max-width: 19vw;
   object-fit: cover;
 }
 
@@ -20,7 +20,7 @@
 }
 .title {
   position: relative;
-  font-size: clamp(2.5vw, 1.5vw, var(--fontSize));
+  font-size: clamp(1.5vw, 2vw, 3vw);
   text-align: center;
   top: -2vw;
   color: #000;
