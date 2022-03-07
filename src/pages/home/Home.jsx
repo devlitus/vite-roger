@@ -110,14 +110,7 @@ export const Home = () => {
           alt='FAPAC'
         />
       </div>
-      <section className='home-footer'>
-        <Footer />
-        <img
-          className='home-image-footer'
-          src='/assets/resources/arrow-rotate.png'
-          alt=''
-        />
-      </section>
+      <Footer />
     </main>
   );
 };
