@@ -2,8 +2,8 @@
   width: calc(100% / 2);
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: repeat(2, minmax(150px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, min-content));
+  grid-template-rows: repeat(2, minmax(0, min-content));
   gap: 1rem;
 }
 
@@ -38,9 +38,13 @@
 }
 .resource-arrowUp {
   border: none;
+  height: 15vw;
+  position: relative;
+  top: -4vw;
+  width: 20vw;
   /* width: 15vw; */
-  background-image: url("../../assets/resources/arrowUp.png");
-  background-size: contain;
+  /* background-image: url("../../assets/resources/arrowUp.png"); */
+  /* background-size: contain; */
 }
 .resource-text {
   color: #fff;
@@ -48,15 +52,4 @@
   font-weight: var(--fontWeightMedium);
   align-self: center;
   justify-self: center;
-}
-@media screen and (max-width: 600px) {
-  .section-resources {
-    /* width: 83vw; */
-  }
-  .resource-arrowUp {
-    /* width: 83vw; */
-  }
-  .resource-text {
-    font-size: var(--fontSize);
-  }
 }

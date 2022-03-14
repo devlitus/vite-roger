@@ -13,7 +13,9 @@ export const SectionResource = () => {
       </div>
       <div className='recoure-image resource-grafic' />
       <div className='recoure-image resource-grafic' />
-      <div className='recoure-image resource-arrowUp' />
+      <div>
+        <img className='resource-arrowUp' src='/assets/resources/arrowUp.png' alt='' />
+      </div>
     </div>
   );
 };
