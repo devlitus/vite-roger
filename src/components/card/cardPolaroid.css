@@ -20,7 +20,8 @@
 }
 .title {
   position: relative;
-  font-size: clamp(1.5vw, 2vw, 3vw);
+  font-size: clamp(1vw, 1.5vw, 2vw);
+  font-weight: var(--fontWeightLight);
   text-align: center;
   top: -2vw;
   color: #000;
