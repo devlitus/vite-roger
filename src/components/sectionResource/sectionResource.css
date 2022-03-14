@@ -1,14 +1,12 @@
 .section-resources {
-  width: 70vw;
+  width: calc(100% / 2);
   margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(150px, 1fr));
+  gap: 1rem;
 }
-.box-resource {
-  display: flex;
-  flex-flow: row;
-  justify-content: flex-start;
-  gap: 2rem;
-  margin-bottom: 1rem;
-}
+
 .recoure-image {
   display: flex;
   justify-content: center;
@@ -19,7 +17,7 @@
   background-position: center;
 }
 .resource-video {
-  height: 30vw;
+  height: 21vw;
   background-image: url("../../assets/resources/youtubeBlue.png");
   background-color: #629cbd;
   background-repeat: no-repeat;
@@ -27,21 +25,22 @@
   background-size: cover;
 }
 .resource-audio {
-  height: 15vw;
+  height: 10vw;
   background-image: url("../../assets/images/megaphone.png");
 }
 .resource-blog {
-  height: 20vw;
+  height: 15vw;
   background-image: url("../../assets/images/cortarBLog.png");
 }
 .resource-grafic {
-  height: 20vw;
+  height: 15vw;
   background-image: url("../../assets/images/equalizer.png");
 }
 .resource-arrowUp {
   border: none;
-  width: 81vw;
+  /* width: 15vw; */
   background-image: url("../../assets/resources/arrowUp.png");
+  background-size: contain;
 }
 .resource-text {
   color: #fff;
@@ -52,10 +51,10 @@
 }
 @media screen and (max-width: 600px) {
   .section-resources {
-    width: 90vw;
+    /* width: 83vw; */
   }
   .resource-arrowUp {
-    width: 100vw;
+    /* width: 83vw; */
   }
   .resource-text {
     font-size: var(--fontSize);
